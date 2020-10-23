@@ -1,0 +1,25 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "a countdown for christmas",
+  "main": "server.js",
+  "scripts": {
+    "dev-start": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davibelini/countdown.git"
+  },
+  "keywords": [],
+  "author": "davibelini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davibelini/countdown/issues"
+  },
+  "homepage": "https://github.com/davibelini/countdown#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
