@@ -1,25 +1,26 @@
-function floatText() {
-  const space = document.querySelector('.frases');
+// function floatText() {
+//   const space = document.querySelector('.frases');
 
-  const randomText = ["i'm waiting...", "i can't wait...", "it's coming!"];
+//   const randomText = ["i'm waiting...", "i can't wait...", "it's coming!"];
   
-  //itens em randomText: 4
+//   //itens em randomText: 4
 
-  space.innerHTML = randomText[0];
+//   space.innerHTML = randomText[0];
 
-  let i = 1;
+//   let i = 1;
 
-  setInterval(() => {
-      i++;
-      if(i > 2) {
-          i = 0;
-      }
-      space.innerHTML = randomText[i];
-  }, 5000)
+//   setInterval(() => {
+//       i++;
+//       if(i > 2) {
+//           i = 0;
+//       }
+//       space.innerHTML = randomText[i];
+//   }, 5000)
 
   
-} 
-floatText();
+// } 
+const space = document.querySelector('.frases')
+space.innerHTML = "Close."
 
 function countdown() {
   let daySpace = document.querySelector('.days').querySelector('.big-text')
